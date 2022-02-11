@@ -6,5 +6,5 @@ module.exports = app;
 console.log("hello world");
 app.get("/", (req, res) => {
     //res.send("Hello Express")
-    res.sendFile(__dirname + "public/index.html")
+    res.sendFile(__dirname + "/views/index.html")
 });
